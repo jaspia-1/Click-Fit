@@ -1,0 +1,230 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+background-image: url('socially_img/back-image.png');
+}
+
+
+
+
+
+/* Header Styles */
+
+
+
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  
+}
+#workout{
+  margin-top: 200px;
+}
+
+
+/* Hero Section Styles */
+
+.login-section h2 {
+  color: black;
+}
+
+
+
+
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  padding: 14px 40px;
+  text-decoration: none;
+  border-radius: 30px;
+  border-top-right-radius: 0;
+background-image: linear-gradient(45deg,#df4881,#c430d7);
+font-size: 14px;
+
+}
+
+.btn:hover {
+  background-color: #e65549;
+}
+
+/* Fitness and Sports Content Section Styles */
+.fitness-content,
+.sports-content {
+  padding: 100px 0;
+}
+
+.fitness-content h2,
+.sports-content h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+
+
+/* Footer Styles */
+footer {
+ 
+  color:black;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+/* Form Styles */
+/* form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  justify-content: center;
+  width: 40%;
+  margin-left: 300px;
+} */
+
+
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+
+
+form button {
+  width: 100%;
+  background-color: #ff6f61;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 50px;
+
+}
+
+
+.content h2{
+  font-size: 70px;
+  color: #222;
+}
+
+.content p{
+  margin: 10px 0 30px;
+  color: #333;
+  width: 50%;
+}
+
+.feature-img{
+  width: 530px;
+  position: absolute;
+  bottom:-200px;
+  right: 5%;
+  
+
+}
+
+.heros{
+  width: 100%;
+  min-height: 100vh;
+  /* background-image: url(socially_img/back-image.png); */
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+margin-top: 0;
+}
+.content .btn{
+  padding: 15px 80px;
+  font-size: 20px;
+  color: #ccc;
+  font-weight: bold;
+  transition: 0.5s;
+}
+form button:hover {
+  background-color: #e65549;
+}
+
+
+
+  #fact-content {
+    background-color: #f8f9fa; /* Light gray background color */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    margin-top: 20px; /* Add margin to separate from other content */
+  }
+
+
+.content {
+  position: relative;
+  z-index: 2; /* Ensure the content is above other elements */
+  margin-top: -350px; 
+  /* Adjust this value as needed */
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .container {
+      padding: 0 10px;
+  }
+
+  nav ul li {
+      display: block;
+      margin: 10px 0;
+  }
+  .hero h2 {
+      font-size: 28px;
+     
+  }
+ 
+  .hero p {
+      font-size: 16px;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  /* Further adjust styles for even smaller screens */
+  .btn {
+      padding: 8px 16px;
+  }
+}
